@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- API Credit -->
+    <div class="api">
+        <div class="container">
+            🌞 This app needs an OpenWeather API key to work. <a href="https://home.openweathermap.org/users/sign_up" target="_blank">Get yours here for free!</a>
+        </div>
+    </div>
+
+    <!-- Section 1 -->
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Weather Web App</h1>
+            <form>
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SUBMIT</button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <small>
+                Made with <span>❤</span> by <a href="https://github.com/panjibp" target="_blank">Panji</a>
+            </small>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
